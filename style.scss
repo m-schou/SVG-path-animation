@@ -1,0 +1,200 @@
+body { 
+  background: #1688E2;
+}
+
+.ball1 {
+  motion-path: path("M22.07-57.32q79.44-27.34,64,41.23c46.47,27,46,57.28,0,82.26q5.38,67.08-64,41.21-68.91,27.13-63.69-41.21C-86.6,43.4-85.85,3.57-43-16.09Q-52.83-87.18,22.07-57.32Z");
+  offset-path: path("M22.07-57.32q79.44-27.34,64,41.23c46.47,27,46,57.28,0,82.26q5.38,67.08-64,41.21-68.91,27.13-63.69-41.21C-86.6,43.4-85.85,3.57-43-16.09Q-52.83-87.18,22.07-57.32Z");
+  motion-rotation: reverse;
+  animation: move1 3s linear infinite;
+  animation-delay: 1.5s;
+}
+
+.ball1 {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 40px;
+  position: absolute;
+  left: 30%;
+  top: 100px;
+}
+
+@keyframes move1 {
+
+   8% { 
+    motion-offset: 16%;
+    offset-distance: 16%;
+  }
+  
+   16% { 
+    motion-offset: 16%;
+    offset-distance: 16%;
+  }
+  
+  24% { 
+    motion-offset: 33%;
+    offset-distance: 33%;
+  }
+  
+   33% { 
+    motion-offset: 33%;
+    offset-distance: 33%;
+  }
+  
+  41% { 
+    motion-offset: 49%;
+    offset-distance: 49%;
+  }
+  
+   49% { 
+    motion-offset: 49%;
+    offset-distance: 49%;
+  }
+  
+  58% { 
+    motion-offset: 66%;
+    offset-distance: 66%;
+  }
+  
+   66% { 
+    motion-offset: 66%;
+    offset-distance: 66%;
+  }
+  
+  74% { 
+    motion-offset: 83%;
+    offset-distance: 83%;
+  }
+  
+   83% { 
+    motion-offset: 83%;
+    offset-distance: 83%;
+  }
+  
+  91% { 
+    motion-offset: 99%;
+    offset-distance: 99%;
+  }
+  
+  100% { 
+    motion-offset: 99%;
+    offset-distance: 99%;
+  }  
+}
+
+
+.ball2 {
+  motion-path: path("M21.37-58.33q79-28.45,64.35,41.66Q-29.24,58.2-43,66.62q-68.51-43-1.82-83.3Q47.22,40.49,85.72,65.43q4.71,69.12-63.86,42Q22.37-25.54,21.37-58.33Z");
+  offset-path: path("M21.37-58.33q79-28.45,64.35,41.66Q-29.24,58.2-43,66.62q-68.51-43-1.82-83.3Q47.22,40.49,85.72,65.43q4.71,69.12-63.86,42Q22.37-25.54,21.37-58.33Z");
+  motion-rotation: auto;
+  animation: move2 3s infinite;
+  transition-timing-function: cubic-bezier(.71,-0.02,.27,1.02);
+  animation-delay: 0.5s;
+}
+
+.ball2 {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 40px;
+  position: absolute;
+  left: 30%;
+  top: 100px;
+}
+
+@keyframes move2 {
+  
+  0% { 
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+    
+  16.666% { 
+    motion-offset: 77.777%;
+    offset-distance: 77.777%;
+  }
+  
+  33.333% { 
+    motion-offset: 66.666%;
+    offset-distance: 66.666%;
+  }
+  
+  49.999% { 
+    motion-offset: 44.444%;
+    offset-distance: 44.444%;
+  }
+  
+  66.666% { 
+    motion-offset: 33.333%;
+    offset-distance: 33.333%;
+  }
+  
+  83.333% { 
+    motion-offset: 11.111%;
+    offset-distance: 11.111%;
+  }
+  
+  99.999% { 
+    motion-offset: 0.0222%;
+    offset-distance: 0.0222%;
+  }
+  
+}
+
+.ball3 {
+motion-path: path("M-43-16.09C-53-70-14.31-76.29,22.07-57.32,25,30.25,24.14,6.75,24,108.08c-40.07,20.61-75-6.48-65.57-41.9,62.05-35,58.2-38.76,127.7-82.26,39.5,18,48.92,60.09,0,82.26C30.1,28,25,24.47-43-16.09Z");
+  offset-path: path("M-43-16.09C-53-70-14.31-76.29,22.07-57.32,25,30.25,24.14,6.75,24,108.08c-40.07,20.61-75-6.48-65.57-41.9,62.05-35,58.2-38.76,127.7-82.26,39.5,18,48.92,60.09,0,82.26C30.1,28,25,24.47-43-16.09Z");
+  motion-rotation: reverse;
+  animation: move3 3s infinite;
+  transition-timing-function: cubic-bezier(.71,-0.02,.27,1.02);
+  animation-delay: 0s;
+}
+
+.ball3 {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 40px;
+  position: absolute;
+  left: 30%;
+  top: 100px;
+}
+
+@keyframes move3 {
+  
+  0% { 
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+    
+  16.666% { 
+    motion-offset: 77.777%;
+    offset-distance: 77.777%;
+  }
+  
+  33.333% { 
+    motion-offset: 66.666%;
+    offset-distance: 66.666%;
+  }
+  
+  49.999% { 
+    motion-offset: 44.444%;
+    offset-distance: 44.444%;
+  }
+  
+  66.666% { 
+    motion-offset: 33.333%;
+    offset-distance: 33.333%;
+  }
+  
+  83.333% { 
+    motion-offset: 11.111%;
+    offset-distance: 11.111%;
+  }
+  
+  99.999% { 
+    motion-offset: 0.0222%;
+    offset-distance: 0.0222%;
+  } 
+}
